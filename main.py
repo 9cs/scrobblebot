@@ -10,8 +10,8 @@ def clear():
     else:
         _ = system('clear')
 
-API_KEY = "337f93cac1a69268c099201bbdebcdcc"
-API_SECRET = "8e850397b6cfec36ef3374221a77cf07"
+API_KEY = "YOUR_API_KEY"
+API_SECRET = "YOUR_API_SECRET"
 
 # Default Loop Delay
 loop_delay = 0.2
