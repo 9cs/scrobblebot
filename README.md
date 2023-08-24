@@ -20,5 +20,7 @@ Open CMD on code's folder and run:
 ```bash
   pip install -r requirements.txt
 ```
+Create an API account on LastFM and put API_KEY and API_SECRET_KEY on code's main file
+LastFM API: https://www.last.fm/api/account/create
 
 Start the code and put the requested informations.
