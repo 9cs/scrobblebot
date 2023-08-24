@@ -14,15 +14,15 @@ API_KEY = "YOUR_API_KEY"
 API_SECRET = "YOUR_API_SECRET"
 
 # Default Loop Delay
-loop_delay = 0.2
-count = 0;
+loop_delay = 0.3
+count = 0
 
 clear()
 system("title LastFM Scrobbler")
 username = input(f"\n[{Fore.GREEN}{Style.BRIGHT}>>{Fore.RESET}] User: ")
 password = input(f"[{Fore.GREEN}{Style.BRIGHT}>>{Fore.RESET}] Password: ")
 password_hash = pylast.md5(password)
-default_loop_delay = 3
+default_loop_delay = loop_delay
 artist = input(f"\n[{Fore.GREEN}{Style.BRIGHT}>>{Fore.RESET}] Artist: ")
 title = input(f"[{Fore.GREEN}{Style.BRIGHT}>>{Fore.RESET}] Title: ")
 
