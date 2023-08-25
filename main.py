@@ -44,7 +44,7 @@ except ValueError:
     print(f"[{Fore.GREEN}{Style.BRIGHT}>>{Fore.RESET}] Scrobbler will start scrobbling using the default delay ({Fore.GREEN}{Style.BRIGHT}{default_loop_delay}{Fore.RESET}).")
     loop_delay = default_loop_delay
     
-print(f"\n[{Fore.YELLOW}!!{Fore.RESET}] Press Ctrl+C to stop the scrobbler.")
+print(f"\n[{Fore.YELLOW}{Style.BRIGHT}!!{Fore.RESET}] Press Ctrl+C to stop the scrobbler.")
 print("")
 
 lastfm = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET, username=username, password_hash=password_hash)
@@ -59,4 +59,4 @@ try:
             print(f"[{Fore.RED}XX{Fore.RESET}] ERROR:", e)
         time.sleep(float(loop_delay))
 except KeyboardInterrupt:
-    print(f"\n[{Fore.YELLOW}!!{Fore.RESET}] Scrobbler stopped.")
+    print(f"\n[{Fore.YELLOW}{Style.BRIGHT}!!{Fore.RESET}] Scrobbler stopped.")
