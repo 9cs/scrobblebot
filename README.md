@@ -6,7 +6,7 @@ Scrobble Bot is a LastFM tool for scrobbling any songs or artists without having
 
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1113994866330980442/1143612083531952169/image.png)
+![App Screenshot](https://cdn.discordapp.com/attachments/1113994638756417588/1145528798599729193/image.png)
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1113994866330980442/1143612220878626846/image.png)
 
