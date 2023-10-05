@@ -36,6 +36,10 @@ password_hash = pylast.md5(password)
 
 artist = input(f"\n[{Fore.GREEN}{Style.BRIGHT}>>{Fore.RESET}] Artist: ")
 title = input(f"[{Fore.GREEN}{Style.BRIGHT}>>{Fore.RESET}] Title: ")
+url = f'https://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key={API_KEY}&artist={artist}&track={title}&format=json'
+response = requests.get(url)
+data = response.json()
+album = data['track']['album']['title']
 
 try: 
     loop_delay = get_valid_float_input(f"[{Fore.GREEN}>>{Fore.RESET}] Delay: ", default_loop_delay)
@@ -52,7 +56,7 @@ lastfm = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET, username=u
 try:
     while True:
         try:
-            lastfm.scrobble(artist=artist, title=title, timestamp=int(time.time()))
+            lastfm.scrobble(artist=artist, title=title, album=album, timestamp=int(time.time()))
             count += 1
             print(f"[{Fore.GREEN}{Style.BRIGHT}++{Fore.RESET}] Scrobbled [{Fore.GREEN}{Style.BRIGHT}>>{Fore.RESET}] {artist} - {title} [{Fore.GREEN}{Style.BRIGHT}##{Fore.RESET}] ({count})")
         except pylast.WSError as e:
