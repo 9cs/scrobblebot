@@ -1,10 +1,10 @@
 
 ## Scrobble Bot
 
-To get started, you'll need to create a Last.fm API account and get your API key and secret.
-
 ## Step-by-Step Guide:
 
+  To get started, you'll need to create a Last.fm API account and get your API key and secret.
+  
   Visit the Last.fm API page at https://www.last.fm/api.
 
   Click on "Get API Key."
@@ -18,7 +18,8 @@ To get started, you'll need to create a Last.fm API account and get your API key
   You will be given an API key and an API secret. Copy these and paste them into the script at the lines that say API_KEY = '' and API_SECRET = ''.
 
 ## Starting ScrobbleBot:
-# After filling in your API key and secret, run the script. You will be prompted to enter your Last.fm username and password.
+
+ After filling in your API key and secret, run the script. You will be prompted to enter your Last.fm username and password.
 
  Choose whether you want to scrobble a single song or an entire album.
 
