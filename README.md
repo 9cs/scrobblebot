@@ -2,7 +2,7 @@
 
 ## Step-by-Step Guide:
 
-  ❕ Install modules using ´pip -r requirements.txt´ on Command Prompt inside Scrobble Bot's directory
+  ❕ Install modules using `pip -r requirements.txt` on Command Prompt inside Scrobble Bot's directory
   
   ❕ After installing modules, you'll need to create a Last.FM API account and get your API key and secret.
   
@@ -16,7 +16,7 @@
   
   ❕ Fill out the necessary information. The name of your application doesn't matter. The website and email address are not used for the Last.FM Scrobbler.
   
-  ❕ You will be given an **API key** and an **API secret**. Now Copy these and paste them into the script at the lines that say ´API_KEY = ''´ and ´API_SECRET = ''´
+  ❕ You will be given an **API key** and an **API secret**. Now Copy these and paste them into the script at the lines that say `API_KEY = ''` and `API_SECRET = ''`
 
 ## Starting ScrobbleBot:
 
@@ -26,7 +26,7 @@
 
  ❕ For **single song** scrobbling, enter the artist and song title. For **album scrobbling**, enter the artist and album title.
  
- ❕ After that, the script will scrobble your music for you. The script will run continuously, so if you want to stop scrobbling, you will need to close the command prompt window or press ´CTRL + C´.
+ ❕ After that, the script will scrobble your music for you. The script will run continuously, so if you want to stop scrobbling, you will need to close the command prompt window or press `CTRL + C`.
 
  
  ❗ Remember to use the script responsibly, ScrobbleBot developers **AREN'T** responsible for any possible Last.FM bans or fmBot blacklists.
