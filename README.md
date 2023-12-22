@@ -17,9 +17,13 @@ To get started, you'll need to create a Last.fm API account and get your API key
 # After filling in your API key and secret, run the script. You will be prompted to enter your Last.fm username and password.
 
  Choose whether you want to scrobble a single song or an entire album.
+
  For single song scrobbling, enter the artist and song title. For album scrobbling, enter the artist and album title.
+ 
  After that, the script will scrobble your music for you. The script will run continuously, so if you want to stop scrobbling, you will need to close the command prompt window.
+ 
  Remember to use the script responsibly and avoid scrobbling music you don't have a legal right to listen to.
+
  If you're unsure about any part of the process, you can always refer to the documentation on the Last.fm API page.
 
-Happy scrobbling!
+## Happy scrobbling!
