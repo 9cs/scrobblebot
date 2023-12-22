@@ -1,26 +1,28 @@
 
 # Scrobble Bot
 
-Scrobble Bot is a LastFM tool for scrobbling any songs or artists without having to play the song. 
+To get started, you'll need to create a Last.fm API account and get your API key and secret.
 
+Here's a step-by-step guide:
 
-## Screenshots
+-Visit the Last.fm API page at https://www.last.fm/api.
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1113994638756417588/1145528798599729193/image.png)
+  -Click on "Get API Key."
+  -Sign up for a Last.fm account if you don't have one already.
+  -Once you have an account, click on "Request an API key."
+  -Fill out the necessary information. The name of your application doesn't matter. The website and email address are not used for the Last.fm Scrobbler.
+  -You will be given an API key and an API secret. Copy these and paste them into the script at the lines that say API_KEY = '' and API_SECRET = ''.
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1113994866330980442/1143612220878626846/image.png)
+After filling in your API key and secret, run the script. You will be prompted to enter your Last.fm username and password.
 
+Choose whether you want to scrobble a single song or an entire album.
 
-## Run Locally
+For single song scrobbling, enter the artist and song title. For album scrobbling, enter the artist and album title.
 
-Download the code on your PC
+After that, the script will scrobble your music for you. The script will run continuously, so if you want to stop scrobbling, you will need to close the command prompt window.
 
-Download Python 3+ and install the code's dependencies
-Open CMD on code's folder and run:
-```bash
-  pip install -r requirements.txt
-```
-Create an API account on LastFM and put API_KEY and API_SECRET_KEY on code's main file
-LastFM API: https://www.last.fm/api/account/create
+Remember to use the script responsibly and avoid scrobbling music you don't have a legal right to listen to.
 
-Start the code and put the requested informations.
+If you're unsure about any part of the process, you can always refer to the documentation on the Last.fm API page.
+
+Happy scrobbling!
