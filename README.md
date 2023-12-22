@@ -5,13 +5,17 @@ To get started, you'll need to create a Last.fm API account and get your API key
 
 ## Step-by-Step Guide:
 
--Visit the Last.fm API page at https://www.last.fm/api.
+  Visit the Last.fm API page at https://www.last.fm/api.
 
-  -Click on "Get API Key."
-  -Sign up for a Last.fm account if you don't have one already.
-  -Once you have an account, click on "Request an API key."
-  -Fill out the necessary information. The name of your application doesn't matter. The website and email address are not used for the Last.fm Scrobbler.
-  -You will be given an API key and an API secret. Copy these and paste them into the script at the lines that say API_KEY = '' and API_SECRET = ''.
+  Click on "Get API Key."
+  
+  Sign up for a Last.fm account if you don't have one already.
+  
+  Once you have an account, click on "Request an API key."
+  
+  Fill out the necessary information. The name of your application doesn't matter. The website and email address are not used for the Last.fm Scrobbler.
+  
+  You will be given an API key and an API secret. Copy these and paste them into the script at the lines that say API_KEY = '' and API_SECRET = ''.
 
 ## Starting ScrobbleBot:
 # After filling in your API key and secret, run the script. You will be prompted to enter your Last.fm username and password.
