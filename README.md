@@ -1,4 +1,6 @@
 
+<img src="https://cdn.discordapp.com/attachments/1113994866330980442/1187875264630370431/image.png"/>
+
 ## Scrobble Bot
 
 ## Step-by-Step Guide:
