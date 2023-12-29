@@ -1,9 +1,6 @@
-import pylast
-import time
+import pylast, time, requests, pwinput
 from colorama import Fore, Style, init
 from os import system, name
-import requests
-import pwinput
 
 init(autoreset=True)
 API_KEY = """5ebce83b48c27d7ab97c03719a8c2372"""
